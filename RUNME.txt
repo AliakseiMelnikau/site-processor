@@ -1,16 +1,11 @@
-site-processor
-==============
-
-Maven project that parses documents (csv & json) containing list of sites. For each site list of keywords is resolved.
-
 ## Build
 
   mvn package # from root folder
-  
+
 ## Tests
 
   mvn test # from root folder
-  
+
 ## Run
 
 ### Command Line
@@ -22,9 +17,7 @@ Maven project that parses documents (csv & json) containing list of sites. For e
 2. Create launch configuration for "Application.java" as Java Application and specify two program arguments:
     2.1. Path to folder with input files
     2.2. Path to output file
-    
+
 ## Note
 
 To run this project you need minimum Java 7 installed.
-    
-  
